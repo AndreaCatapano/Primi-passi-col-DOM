@@ -20,8 +20,14 @@ function toggleLight (){
       container.classList.replace("bg-color-yellow", "bg-color-dark");
       counter.classList.replace("button-off", "button-on");
   }
+  if (counterNumber <= 10){
   counterNumber++;
   counter.textContent = counterNumber;
+  } else {
+    button.outerHTML = "<p class='button button-on'>HAI ROTTO LA LAMPADINA</p>";
+    counter.textContent = "??";
+    container.classList.replace("bg-color-dark", "bg-color-warning");
+  }
 }
 
 button.addEventListener("click", toggleLight);

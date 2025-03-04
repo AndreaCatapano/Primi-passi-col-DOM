@@ -22,6 +22,10 @@
     background-color: yellow;
 }
 
+.bg-color-warning{
+    background-color: red;
+}
+
 
 .button{
     text-align: center;
