@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 40%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.5s ease-in-out;
+}
+
+
+.bg-color-dark{
+    background-color: black;
+}
+
+.bg-color-yellow{
+    background-color: yellow;
+}
+
+
+.button{
+    text-align: center;
+    width: 200px;
+    padding: 1rem 1.5rem;
+    border: 2.5px solid;
+    border-radius: 99em;
+    transition: color 0.5s ease-in-out;
+}
+
+.button-on {
+    color: white;
+    border-color: white;
+}
+
+.button-off {
+    color: black;
+    border-color: black
+}
